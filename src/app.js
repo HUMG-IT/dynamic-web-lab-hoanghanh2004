@@ -16,3 +16,5 @@ app.listen(port, () => {
     console.log(`Server đang chạy ở cổng ${port}`);
     console.log(`Truy cập vào http://localhost:${port} để xem ứng dụng`);
 });
+
+module.exports = app;  // Export app để sử dụng trong kiểm thử
