@@ -4,7 +4,7 @@
   "description": "Làm quen với ứng dụng web động",
   "main": "index.js",
   "scripts": {
-    "prestart": "node prestart.js",
+    "prestart": "echo 'Bỏ qua kiểm tra cổng trên Windows",
     "start": "node src/app.js",
     "test": "jest",
     "cypress:run": "npx wait-on http://localhost:3000 && cypress run",
